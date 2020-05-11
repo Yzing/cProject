@@ -2,10 +2,8 @@
 #include <limits.h>
 #include <float.h>
 
-#define S "dfewfewf"
-
 int main() {
-	printf("hhahahh\n", "dswwe");
+	printf("%s\n", "sdfdsf\0newnewnew");
 	return 0;
 }
 
