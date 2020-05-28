@@ -1,4 +1,4 @@
-#include "csapp.h"
+#include "../include/csapp.h"
 
 /* $begin fork */
 /* $begin wasidefork */
@@ -9,8 +9,8 @@ int main()
 
     pid = Fork(); //line:ecf:forkreturn
     if (pid == 0) {  /* Child */
-	printf("child : x=%d\n", ++x); //line:ecf:childprint
-	exit(0);
+			printf("child : x=%d\n", ++x); //line:ecf:childprint
+			exit(0);
     }
 
     /* Parent */
